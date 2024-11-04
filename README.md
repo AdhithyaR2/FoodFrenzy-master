@@ -30,35 +30,6 @@ Before running this project, ensure you have the following installed:
 - Maven
 - Eclipse or Spring Tool Suite (STS)
 
-## Setup and Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-repository-url/FoodFrenzy.git
-    ```
-
-2. Navigate to the project directory:
-    ```bash
-    cd FoodFrenzy
-    ```
-
-3. Configure MySQL Database:
-    - Create a new MySQL database.
-    - Update `application.properties` with your MySQL credentials:
-      ```properties
-      spring.datasource.url=jdbc:mysql://localhost:3306/foodfrenzy
-      spring.datasource.username=root
-      spring.datasource.password=root
-      spring.jpa.hibernate.ddl-auto=update
-      ```
-
-4. Run the project:
-    ```bash
-    mvn spring-boot:run
-    ```
-
-5. Access the application:
-    - Navigate to `http://localhost:8080` in your browser. 
 ## Website Screenshot
 
 Here is a preview of the FoodFrenzy interface:
